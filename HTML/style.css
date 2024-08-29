@@ -1,0 +1,21 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width:50%;
+}
+th{
+    text-align: center;  
+}
+td{
+    text-align: left;
+}
+tr:nth-child(odd) {
+    background-color:pink;
+}
+caption{
+    text-align: left;
+    font-size: 150%;
+}
+body{
+    background-color: #afc7ee;
+}
